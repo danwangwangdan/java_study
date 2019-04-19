@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <add-tips/>
+  <view>
+    <swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+      <block wx:for="{{bnrUrl}}" wx:key="index" wx:for-index="index">
+        <swiper-item>
+          <wux-image bind:click="previewImg" width='750rpx' src='{{item}}' mode='widthFix' load/>
+          <image slot="loading" />
+          <image slot="empty" />
+          <image slot="error" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view bindtap="toJavaBasic" >
+    <wux-wing-blank size="default">
+      <wux-card thumb="/pics/basic.png" title="Java核心基础" extra="">
+        <view slot="body">30天精讲Java基础</view>
+        <view slot="footer">讲师：北航硕士宋红康</view>
+      </wux-card>
+    </wux-wing-blank>
+  </view>
+  <view style="margin-top:60rpx">
+    <wux-divider text="更多视频加入中..." />
+  </view>
+</view>

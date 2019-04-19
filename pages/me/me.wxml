@@ -1,0 +1,31 @@
+<view class="container more">
+  <view class="user flex-wrp">
+    <view class="avatar flex-item">
+      <open-data class="userinfo-avatar" type="userAvatarUrl"></open-data>
+    </view>
+    <view class="user-info flex-item">
+      <open-data class="userinfo-nickname" type="userNickName"></open-data>
+      <text class="edit">学习时长  100小时</text>
+    </view>
+  </view>
+
+  <view class="my">
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item">
+        <image src="/pics/all.png" style="height:50rpx;width:50rpx"></image>
+      </view>
+      <view class="myitem-name flex-item" bindtap="toAll">
+        <text>我的收藏</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon2 flex-item">
+        <image src="/pics/processing.png" style="height:52rpx;width:52rpx"></image>
+      </view>
+      <view class="myitem-name flex-item" bindtap="toNotSolved">
+        <text>观看历史</text>
+      </view>
+    </view>
+
+  </view>
+</view>
