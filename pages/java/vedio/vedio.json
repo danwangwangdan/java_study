@@ -5,7 +5,11 @@
     "wux-alert": "../../../plugins/wux/alert/index",
     "wux-fab-button": "../../../plugins/wux/fab-button/index",
     "wux-button": "../../../plugins/wux/button/index",
-    "wux-icon": "../../../plugins/wux/icon/index"
+    "wux-icon": "../../../plugins/wux/icon/index",
+    "wux-row": "../../../plugins/wux/row/index",
+    "wux-col": "../../../plugins/wux/col/index",
+    "wux-slider": "../../../plugins/wux/slider/index",
+    "wux-tag": "../../../plugins/wux/tag/index"
   },
-  "navigationBarTitleText": "Java核心技术"
+  "navigationBarTitleText": "课程视频"
 }

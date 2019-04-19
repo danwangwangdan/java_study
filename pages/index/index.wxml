@@ -15,8 +15,8 @@
   </view>
   <view bindtap="toJavaBasic" >
     <wux-wing-blank size="default">
-      <wux-card thumb="/pics/basic.png" title="Java核心基础" extra="">
-        <view slot="body">30天精讲Java基础</view>
+      <wux-card thumb="/pics/basic.png" title="Java核心技术" extra="">
+        <view slot="body">30天精讲Java核心</view>
         <view slot="footer">讲师：北航硕士宋红康</view>
       </wux-card>
     </wux-wing-blank>

@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "wux-cell-group": "../../plugins/wux/cell-group/index",
+    "wux-cell": "../../plugins/wux/cell/index"
+  },
+  "navigationBarTitleText": "我的"
 }

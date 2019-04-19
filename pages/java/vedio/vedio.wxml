@@ -1,0 +1,31 @@
+<view>
+  <view>
+    <video style="width:750rpx" show-mute-btn id="myVideo" src="https://www.daliandaxue.cn/img/basic/day00/0.mp4" controls></video>
+  </view>
+  <view style='margin-left:10rpx;margin-right:10rpx;'>
+    <wux-row>
+      <wux-col span="5">
+       <view style='margin-left:30rpx'>
+        <wux-button block size="default " bind:click="toDecode" type="balanced ">
+          <wux-icon type="md-heart " size="16 " /> 收藏</wux-button>
+            </view>
+      </wux-col>
+      <wux-col span="7">
+        <view style='margin-left:40rpx'>
+          <view class="page__desc">设置倍速播放：</view>
+          <view style='margin-top:20rpx'>
+            <wux-tag color="#f50">1.0倍</wux-tag>
+            <wux-tag style='margin-left:25rpx'color="#2db7f5">1.5倍</wux-tag>
+            <wux-tag style='margin-left:25rpx'color="#87d068">2.0倍</wux-tag>
+          </view>
+        </view>
+      </wux-col>
+    </wux-row>
+  </view>
+  <wux-cell-group title="课程目录">
+    <wux-cell title="day01" is-link extra="学习之前的说明"></wux-cell>
+    <wux-cell title="day02" is-link extra="Java介绍"></wux-cell>
+    <wux-cell title="day03" is-link extra="基本语法"></wux-cell>
+    <wux-cell title="day04" is-link extra="面向对象"></wux-cell>
+  </wux-cell-group>
+</view>

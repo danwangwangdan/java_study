@@ -1,9 +1,9 @@
 {
-  "pages":[
-    "pages/me/me",
+  "pages": [
+    "pages/java/vedio/vedio",
+    "pages/java/basic/basic",
     "pages/index/index",
-    
-    "pages/java/basic/basic"
+    "pages/me/me"
   ],
   "window": {
     "backgroundTextStyle": "light",
