@@ -16,7 +16,7 @@ Page({
     formIds: [],
     isDisabled: false
   },
-  toAll: function () {
+  toContact: function () {
     wx.navigateTo({
       url: '/pages/me/all/all'
     })

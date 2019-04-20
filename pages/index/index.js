@@ -4,8 +4,8 @@ const app = getApp()
 
 Page({
   data: {
-    bnrUrl: ["https://www.daliandaxue.cn/img/qun.png",
-      "https://www.daliandaxue.cn/img/dybg.png"
+    bnrUrl: ["https://www.daliandaxue.cn/img/jiayou.png",
+      "https://www.daliandaxue.cn/img/corejava.png"
     ]
   },
   //事件处理函数

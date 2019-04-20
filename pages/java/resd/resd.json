@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "wux-cell-group": "../../../plugins/wux/cell-group/index",
+    "wux-cell": "../../../plugins/wux/cell/index",
+    "wux-alert": "../../../plugins/wux/alert/index",
+    "wux-fab-button": "../../../plugins/wux/fab-button/index",
+    "wux-button": "../../../plugins/wux/button/index",
+    "wux-icon": "../../../plugins/wux/icon/index"
+  },
+  "navigationBarTitleText": "资料下载"
+}

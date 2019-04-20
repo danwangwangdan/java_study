@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/java/resd/resd",
     "pages/java/vedio/vedio",
     "pages/java/basic/basic",
-    "pages/index/index",
     "pages/me/me"
   ],
   "window": {

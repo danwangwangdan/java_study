@@ -1,0 +1,16 @@
+<view>
+  <view>
+    <image style='height:300rpx;width:750rpx' src="/pics/download.png" mode="">
+    </image>
+  </view>
+
+  <view style='margin-top:-10rpx'>
+    <wux-alert bind:click="showPic" theme="stable" title="下载说明：" label="本资源包含课件和复习资料等，请复制链接到浏览器中下载，或在电脑上下载。如链接失效，请及时联系客服处理。" />
+  </view>
+  <wux-cell-group title="下载目录，点击以复制下载链接">
+    <wux-cell title="第一部分" bindtap="firPart" extra="Java基础编程课件"></wux-cell>
+    <wux-cell title="第二部分" bindtap="secPart"  extra="Java高级编程课件"></wux-cell>
+    <wux-cell title="第三部分" bindtap="thirdPart"  extra="文档、源码与复习资料"></wux-cell>
+  </wux-cell-group>
+
+</view>

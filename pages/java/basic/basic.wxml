@@ -4,20 +4,16 @@
     </image>
   </view>
 
-  <view style='margin-top:-10rpx'>
+  <!-- <view style='margin-top:-10rpx'>
     <wux-alert bind:click="showPic" theme="stable" title="课程说明：" label="1. 本课程虽然分为30天，但每一天知识内容过多，可根据自身情况合理安排时间。2. 本课程无前置学习要求，请放心学习，祝您学习顺利。" />
-  </view>
-
-  <view style='margin-top:0rpx'>
-    <wux-alert bind:click="showPic" theme="stable" title="课程资源下载：" label="小程序内无法下载文件，请点击复制链接，您稍后可以到浏览器或电脑上下载。" />
-  </view>
+  </view> -->
 
   <view style='margin-top:80rpx;margin-left:80rpx;margin-right:80rpx;'>
   
-    <wux-button block size="default " bind:click="toDecode" type="balanced ">
+    <wux-button block size="default " bind:click="toStudy" type="balanced ">
       <wux-icon type="md-bulb " size="16 " />  开始学习</wux-button>
-       <wux-button block size="default " bind:click="toDecode" type="balanced ">
-      <wux-icon type="ios-download " size="16 " />  课程资源</wux-button>
+       <wux-button block size="default " bind:click="toDownload" type="balanced ">
+      <wux-icon type="ios-download " size="16 " />  资料下载</wux-button>
   </view>
 
 </view>
